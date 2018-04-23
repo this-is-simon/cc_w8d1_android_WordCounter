@@ -16,8 +16,8 @@ public class WordCounterTest {
 
     @Test
     public void canCountWords(){
-        assertEquals(5, wordcounter1.countWords("This is 5 words yes"));
-        assertEquals(3, wordcounter1.countWords("Go to hell"));
+        assertEquals("5", wordcounter1.countWords("This is 5 words yes"));
+        assertEquals("3", wordcounter1.countWords("Go to hell"));
     }
 
 

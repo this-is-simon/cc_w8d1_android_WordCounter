@@ -1,16 +1,14 @@
 package wordcounter.codeclan.com.wordcounter;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 public class WordCounter {
 
-    public int countWords(String paragraphToCount){
+    public String countWords(String paragraphToCount){
         String[] arrayToCount = paragraphToCount.split(" ");
-        return arrayToCount.length;
+        int number = arrayToCount.length;
+        String numberAsString = String.valueOf(number);
+        return numberAsString;
     }
 
-    
 
 
 }
