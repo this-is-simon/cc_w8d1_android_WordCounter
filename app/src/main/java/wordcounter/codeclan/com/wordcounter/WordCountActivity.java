@@ -24,12 +24,13 @@ public class WordCountActivity extends AppCompatActivity {
         button = findViewById(R.id.buttonID);
     }
 
-//    public void onButtonClicked(View button){
-//
-//        String paragraph = inputParagraph.getText().toString();
-//        int wordsCounted = wordCounter1.countWords(paragraph);
-//        outputWordcountNumber.setText(wordsCounted);
-//    }
+    public void onButtonClicked(View button){
+
+        String paragraph = inputParagraph.getText().toString();
+        String wordsCounted = wordCounter1.countWords(paragraph);
+        outputWordcountNumber.setText(wordsCounted);
+
+    }
 
 
 }
