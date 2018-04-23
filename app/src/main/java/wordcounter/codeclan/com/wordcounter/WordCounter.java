@@ -10,5 +10,7 @@ public class WordCounter {
         return arrayToCount.length;
     }
 
+    
+
 
 }
